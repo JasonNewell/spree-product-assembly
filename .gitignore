@@ -1,1 +1,20 @@
-spec/dummy
+# Ignore bundler config
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Ignoring assets
+/public/assets
+/public/system
+
+# Ignoring bundler drops
+/vendor/cache
+/vendor/ruby
+/bin
+.idea/*
+schema.rb

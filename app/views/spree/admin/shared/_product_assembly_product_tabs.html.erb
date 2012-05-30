@@ -1,4 +1,4 @@
-<li<%= ' class="active"' if current == "Parts" %>>
+<li<%= ' class="active"'.html_safe if current == "Parts" %>>
   <%= link_to t("parts"), admin_product_parts_url(@product) %>
 </li>
 

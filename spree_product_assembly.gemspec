@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.description = 'Adds oportunity to make bundle of products to your Spree store'
   s.required_ruby_version = '>= 1.8.7'
 
-  s.author            = 'Roman Smirnov'
+  s.authors            = ['Roman Smirnov', 'Jason Newell']
   s.email             = 'roman@railsdog.com'
-  s.homepage          = 'https://github.com/spree/spree-product-assembly'
+  s.homepage          = 'https://github.com/JasonNewell/spree-product-assembly'
   # s.rubyforge_project = 'actionmailer'
 
   s.files         = `git ls-files`.split("\n")
